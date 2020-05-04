@@ -1,3 +1,8 @@
+# 0.0.6
+
+- Remove `random` as a dependency, since since `random-1.2` now depends on `splitmix` and
+  `SMGen` is used as a default generator `StdGen`.
+
 # 0.0.5
 
 - Add `nextInteger`
